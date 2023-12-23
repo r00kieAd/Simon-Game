@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://r00kiead.github.io/Simon-Game/">Play Simon Game</a>
+  <a href="https://r00kiead.github.io/Simon-Game/">Play</a>
 </div>
 
 <h1 align="center">Simon Game</h1>
@@ -17,12 +17,6 @@
 
   <img alt="License" src="https://img.shields.io/github/license/r00kieAd/Simon-Game?color=56BEB8">
 </p>
-
-<!-- Status -->
-
-<h4 align="center"> 
-	🚧  Simon Game 🚀 Under construction...  🚧
-</h4> 
 
 <hr>
 
@@ -46,7 +40,7 @@ This is a simple Simon Game Webapp. Made this while learning jquery from udemy. 
 :heavy_check_mark: Interactive;
 :heavy_check_mark: Responsive;
 :heavy_check_mark: Level based gameplay;
-:heavy_check_mark: Game logs (in development);
+:heavy_check_mark: Game logs;
 
 ## :rocket: Technologies ##
 
@@ -60,7 +54,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Make sure that your browser is enabled with javascript loader.
+Make sure that your browser is enabled with javascript loader. You also need a keyboard with the device you play the game with.
 
 ## :memo: License ##
 
