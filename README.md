@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="https://web.pdx.edu/~kherb2/project2-simon-game/images/simon-1.png" alt="Simon Game" />
+  <img src="https://web.pdx.edu/~kherb2/project2-simon-game/images/simon-1.png" alt="Simon Game" width="400px" height="400px"/>
 
   &#xa0;
 
