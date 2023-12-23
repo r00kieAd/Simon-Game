@@ -34,7 +34,7 @@ async function validateClicks(ce) {
             if (e != clickedColors[i]) {
                 inGame = false;
                 $('audio')[0].play();
-                $('#level-title').text(`Game Over, Reloading in 3..`);
+                $('#level-title').text(`Game Over, Reloading in 10..`);
             }
         })
         if (inGame) {
@@ -58,9 +58,14 @@ async function validateClicks(ce) {
 
 function reloadPage() {
     async function reloadCount() {
-        let r = 2;
+        $('#logs').slideDown();
+        $('.container').slideUp();
+        $('#level').text(`You passed ${level} level(s)`);
+        $('#pattern').text(`Last pattern: ${chosenColors}`);
+        $('#clicks').text(`Your clicks: ${clickedColors}`);
+        let r = 9;
         while (r > 0) {
-            await new Promise(resolve => setTimeout(resolve, 900)).then(() => {
+            await new Promise(resolve => setTimeout(resolve, 1000)).then(() => {
                 $('#level-title').text(`Game Over, Reloading in ${r}..`);
             });
             r--;
@@ -69,7 +74,7 @@ function reloadPage() {
     reloadCount();
     setTimeout(() => {
         location.reload();
-    }, 3000)
+    }, 10000)
 }
 
 // registering clicks
