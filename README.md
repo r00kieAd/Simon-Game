@@ -31,18 +31,18 @@
 
 <br>
 
-## :dart: About ##
+## About ##
 
 This is a simple Simon Game Webapp. Made this while learning jquery from udemy. Go ahead and play the game and provide any inputs if required.
 
-## :sparkles: Features ##
+## Features ##
 
 :heavy_check_mark: Interactive;
 :heavy_check_mark: Responsive;
 :heavy_check_mark: Level based gameplay;
 :heavy_check_mark: Game logs;
 
-## :rocket: Technologies ##
+## Technologies ##
 
 The following tools were used in this project:
 
@@ -52,11 +52,11 @@ The following tools were used in this project:
 - [JQuery](https://www.w3schools.com/jquery/default.asp)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-## :white_check_mark: Requirements ##
+## Requirements ##
 
 Make sure that your browser is enabled with javascript loader. You also need a keyboard with the device you play the game with.
 
-## :memo: License ##
+## License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
